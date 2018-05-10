@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inception.lapi.visionplus.Signup"
+    >
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="10dp"
+           android:id="@+id/linear1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SignUp"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect"
+                    android:layout_marginTop="10dp">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_user"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="First name"
+                        android:background="@null"
+                        android:id="@+id/firstname"
+                        android:inputType="textCapWords"
+                        android:maxLines="1"
+
+                        />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_user"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Last name"
+                    android:background="@null"
+                    android:id="@+id/lastname"
+                    android:maxLines="1"
+                    android:inputType="textCapWords"
+
+                    />
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:src="@drawable/email"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email"
+                android:background="@null"
+                android:id="@+id/email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+
+                />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/psswrd"/>
+
+                <EditText
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:hint="Password"
+                    android:id="@+id/pswd"
+                    android:background="@null"
+                    android:maxLines="1"
+                    android:inputType="textPassword"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                   android:textColor="#000"
+                    android:id="@+id/show_password"
+                    android:text="Show"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/confirm"/>
+
+                <EditText
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:hint="Confirm Password"
+                    android:background="@null"
+                    android:id="@+id/confirm"
+                    android:maxLines="1"
+                    android:inputType="textPassword"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000"
+                    android:id="@+id/confirm_pass"
+                    android:text="Show"/>
+
+            </LinearLayout>
+       </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#000"
+        android:layout_marginHorizontal="110dp"
+        android:layout_below="@+id/linear1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="submit"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

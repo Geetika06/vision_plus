@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "797767415501",
+    "firebase_url": "https://visionplusfinal.firebaseio.com",
+    "project_id": "visionplusfinal",
+    "storage_bucket": "visionplusfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797767415501:android:ce3222d25a38d35c",
+        "android_client_info": {
+          "package_name": "com.inception.lapi.visionplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797767415501-4mipuit9he6lvi8qcmu2ruj2402p2lu0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inception.lapi.visionplus",
+            "certificate_hash": "c1a3a79f0e2f8a83d639258dd49998a71f88fef8"
+          }
+        },
+        {
+          "client_id": "797767415501-tm0bgli3leoeahi4m9b9t691537e3cdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr106C-FCEiEKiVu7YZB6oU3LJrLnVTls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797767415501-tm0bgli3leoeahi4m9b9t691537e3cdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
